@@ -5,7 +5,7 @@ import Header from './src/components/header'
 export default class HelloWorldApp extends Component {
   render() {
     return (
-      <Header />
+      <Header headerText={'Albums!'} />
     )
   }
 }
