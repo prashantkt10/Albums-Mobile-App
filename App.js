@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { View } from 'react-native'
-import Header from './src/components/header'
+import Header from './src/components/Header'
+import AlbumList from './src/components/AlbumList'
 
 export default class HelloWorldApp extends Component {
   render() {
     return (
-      <Header headerText={'Albums!'} />
+      <View>
+        <Header headerText={'Albums!'} />
+        <AlbumList />
+      </View>
     )
   }
 }
